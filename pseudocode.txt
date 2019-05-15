@@ -1,0 +1,12 @@
+checking if the user argument were informed and are not negative int
+else, prompt how to use the program properly
+
+asking for plaintext
+get the length of the plaintext
+assigning the argument to variable int "key"
+
+make a for to start printing the ciphertext.
+check if the char is upper level, then use the formula for adding the key
+else, use the formula for lower level to adding the key
+check if the char is an Alphabet, then add the key
+else prompt the normal char.
