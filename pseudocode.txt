@@ -1,12 +1,17 @@
-checking if the user argument were informed and are not negative int
+checking if the user argument were informed and is an keyword
 else, prompt how to use the program properly
+
+create a function for transforming char into int
 
 asking for plaintext
 get the length of the plaintext
-assigning the argument to variable int "key"
+get the length of the keyword
 
 make a for to start printing the ciphertext.
-check if the char is upper level, then use the formula for adding the key
-else, use the formula for lower level to adding the key
-check if the char is an Alphabet, then add the key
+check if the char is Alphabet, then:
+  check if the length of the keyword is the last, then reset to 0
+  else, continue
+  transform the keyword char into int
+  check if the char is upper level, then use the formula for adding the key
+  else, use the formula for lower level to adding the key
 else prompt the normal char.
